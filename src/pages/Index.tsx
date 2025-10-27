@@ -1,6 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/ui/icon";
+import WebinarDemo from "@/components/WebinarDemo";
+import GetCourseDemo from "@/components/GetCourseDemo";
 
 const Index = () => {
   return (
@@ -38,50 +40,46 @@ const Index = () => {
 
       <section className="py-32 px-4 relative">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-8 animate-fade-in">
-              <div className="flex items-center gap-4">
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30">
-                  <span className="text-3xl font-serif font-bold text-primary">1</span>
-                </div>
-                <div>
-                  <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 1</Badge>
-                  <h2 className="text-5xl font-serif font-bold">Webinar</h2>
-                </div>
+          <div className="space-y-12">
+            <div className="flex items-center gap-4">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30">
+                <span className="text-3xl font-serif font-bold text-primary">1</span>
               </div>
-              
+              <div>
+                <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 1</Badge>
+                <h2 className="text-5xl font-serif font-bold">Webinar</h2>
+              </div>
+            </div>
+            
+            <div className="grid lg:grid-cols-2 gap-12 items-start">
               <div className="space-y-6 text-lg text-muted-foreground">
-                <p className="leading-relaxed">
+                <p className="leading-relaxed text-xl">
                   We creating your own selling web from scratch
                 </p>
                 <p className="leading-relaxed">
                   All organisation, slides, technology of web on us
                 </p>
+                
+                <div className="flex flex-wrap gap-4 pt-4">
+                  <div className="flex items-center gap-2 text-primary">
+                    <Icon name="CheckCircle2" size={20} />
+                    <span>Professional slides</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-primary">
+                    <Icon name="CheckCircle2" size={20} />
+                    <span>Lead generation</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-primary">
+                    <Icon name="CheckCircle2" size={20} />
+                    <span>Full automation</span>
+                  </div>
+                </div>
               </div>
               
-              <div className="flex flex-wrap gap-4">
-                <div className="flex items-center gap-2 text-primary">
-                  <Icon name="CheckCircle2" size={20} />
-                  <span>Professional slides</span>
-                </div>
-                <div className="flex items-center gap-2 text-primary">
-                  <Icon name="CheckCircle2" size={20} />
-                  <span>Lead generation</span>
-                </div>
-                <div className="flex items-center gap-2 text-primary">
-                  <Icon name="CheckCircle2" size={20} />
-                  <span>Full automation</span>
-                </div>
+              <div className="animate-scale-in">
+                <WebinarDemo />
               </div>
             </div>
-            
-            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500">
-              <img 
-                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/abf9ed19-b616-4009-95f6-cf046d1c94f0.jpg"
-                alt="Webinar presentation"
-                className="w-full h-full object-cover"
-              />
-            </Card>
           </div>
         </div>
       </section>
@@ -91,8 +89,8 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500 order-2 lg:order-1">
               <img 
-                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/b4282f79-7b81-4916-beec-8e501557055c.jpg"
-                alt="Banking transactions"
+                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/69b4c91b-da77-4603-84a7-b91050d105bc.jpg"
+                alt="Sales team analytics"
                 className="w-full h-full object-cover"
               />
             </Card>
@@ -141,53 +139,34 @@ const Index = () => {
 
       <section className="py-32 px-4 relative">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-8 animate-fade-in">
-              <div className="flex items-center gap-4">
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30">
-                  <span className="text-3xl font-serif font-bold text-primary">3</span>
-                </div>
-                <div>
-                  <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 3</Badge>
-                  <h2 className="text-5xl font-serif font-bold">Product</h2>
-                </div>
+          <div className="space-y-12">
+            <div className="flex items-center gap-4">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30">
+                <span className="text-3xl font-serif font-bold text-primary">3</span>
               </div>
-              
-              <div className="space-y-6 text-lg text-muted-foreground">
-                <p className="leading-relaxed">
+              <div>
+                <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 3</Badge>
+                <h2 className="text-5xl font-serif font-bold">Product</h2>
+              </div>
+            </div>
+            
+            <div className="space-y-8">
+              <div className="text-lg text-muted-foreground max-w-3xl">
+                <p className="leading-relaxed mb-4">
                   We make your own platform, best performance at the lessons
                 </p>
-                <p className="leading-relaxed">
+                <p className="leading-relaxed mb-4">
                   People will want not just simple videos
                 </p>
-                <p className="leading-relaxed text-white">
+                <p className="leading-relaxed text-white text-xl">
                   They will go through an interactive program with gifts, tasks and bonuses
                 </p>
               </div>
               
-              <div className="flex flex-wrap gap-4">
-                <div className="flex items-center gap-2 text-primary">
-                  <Icon name="Award" size={20} />
-                  <span>Interactive lessons</span>
-                </div>
-                <div className="flex items-center gap-2 text-primary">
-                  <Icon name="Gift" size={20} />
-                  <span>Bonus system</span>
-                </div>
-                <div className="flex items-center gap-2 text-primary">
-                  <Icon name="Target" size={20} />
-                  <span>Task tracking</span>
-                </div>
+              <div className="animate-scale-in">
+                <GetCourseDemo />
               </div>
             </div>
-            
-            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500">
-              <img 
-                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/c6b56c78-af39-492d-afdd-485bdcfe8ed6.jpg"
-                alt="Learning platform"
-                className="w-full h-full object-cover"
-              />
-            </Card>
           </div>
         </div>
       </section>
@@ -195,13 +174,14 @@ const Index = () => {
       <section className="py-32 px-4 relative bg-gradient-to-b from-transparent via-primary/5 to-transparent">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500 order-2 lg:order-1">
+            <div className="overflow-hidden rounded-2xl border border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500 order-2 lg:order-1 relative group">
               <img 
-                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/80f0d58f-7914-4dac-8189-a513dcb25b3c.jpg"
-                alt="Live events"
+                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/3760873c-8ecc-45b7-9dc2-f42c6ccbb41e.jpg"
+                alt="Live premium event"
                 className="w-full h-full object-cover"
               />
-            </Card>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
             
             <div className="space-y-8 animate-fade-in order-1 lg:order-2">
               <div className="flex items-center gap-4">
