@@ -42,7 +42,7 @@ const Index = () => {
             <div className="space-y-8 animate-fade-in">
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30">
-                  <span className="text-3xl font-serif font-bold text-primary">1</span>
+                  <span className="font-serif font-bold text-primary py-2 my-0 mx-0 text-5xl">1</span>
                 </div>
                 <div>
                   <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 1</Badge>
