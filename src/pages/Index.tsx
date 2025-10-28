@@ -206,7 +206,7 @@ const Index = () => {
             <div className="space-y-8 animate-fade-in order-1 lg:order-2">
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30">
-                  <span className="text-3xl font-serif font-bold text-primary">4</span>
+                  <span className="font-serif font-bold text-primary text-5xl">4</span>
                 </div>
                 <div>
                   <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 4</Badge>
