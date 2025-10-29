@@ -283,6 +283,48 @@ const Index = () => {
           <p className="text-2xl text-muted-foreground max-w-3xl mx-auto">
             Real results from real clients who trusted us with their million-dollar products
           </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 pt-12">
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 hover:scale-105 transition-transform duration-500">
+              <img 
+                src="https://cdn.poehali.dev/files/e554bf6c-cabd-4c57-a0c3-e826dc29ab40.jpg"
+                alt="Course lesson interface"
+                className="w-full h-full object-cover"
+              />
+            </Card>
+
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 hover:scale-105 transition-transform duration-500">
+              <img 
+                src="https://cdn.poehali.dev/files/023eda3c-fcd8-4b53-a9da-c0aa7caf915c.jpg"
+                alt="Product prototype"
+                className="w-full h-full object-cover"
+              />
+            </Card>
+
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 hover:scale-105 transition-transform duration-500">
+              <img 
+                src="https://cdn.poehali.dev/files/20ab20cf-ff95-488e-ad28-b5f48c2a780a.jpg"
+                alt="Product lesson step"
+                className="w-full h-full object-cover"
+              />
+            </Card>
+
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 hover:scale-105 transition-transform duration-500">
+              <img 
+                src="https://cdn.poehali.dev/files/f9272ac4-78c9-4f3e-a5d3-4e450630a81d.jpg"
+                alt="Calendar interface"
+                className="w-full h-full object-cover"
+              />
+            </Card>
+
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 hover:scale-105 transition-transform duration-500">
+              <img 
+                src="https://cdn.poehali.dev/files/6ccefce2-ce21-4a61-869c-a2de004e3be2.jpg"
+                alt="Course platform dashboard"
+                className="w-full h-full object-cover"
+              />
+            </Card>
+          </div>
         </div>
       </section>
 
