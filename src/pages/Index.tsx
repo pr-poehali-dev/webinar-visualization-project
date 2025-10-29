@@ -21,9 +21,7 @@ const Index = () => {
             See how we work on real site
           </p>
           
-          <p className="text-4xl md:text-5xl font-serif font-bold text-primary animate-text-glow">
-            1.000.000$ product
-          </p>
+          <p className="text-4xl md:text-5xl font-serif font-bold text-primary animate-text-glow">$1.000.000 product</p>
           
           <div className="pt-12">
             <Icon name="ChevronDown" className="animate-bounce text-primary" size={40} />
