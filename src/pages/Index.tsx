@@ -11,9 +11,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(212,175,55,0.1),transparent_50%)]" />
         
         <div className="text-center space-y-8 animate-fade-in relative z-10 max-w-5xl">
-          <Badge variant="outline" className="border-primary text-primary text-sm px-4 py-2">
-            1.000.000$ PRODUCT
-          </Badge>
+          <Badge variant="outline" className="border-primary text-primary text-sm px-4 py-2">PREMIUM PRODUCT</Badge>
           
           <h1 className="font-serif text-7xl md:text-9xl font-bold tracking-tight">
             HONIA <span className="text-primary">×</span> MS
