@@ -12,19 +12,12 @@ const Index = () => {
         
         <div className="text-center space-y-8 animate-fade-in relative z-10 max-w-5xl">
           <Badge variant="outline" className="border-primary text-primary text-sm px-4 py-2">
-            PREMIUM PRODUCT
+            1.000.000$ PRODUCT
           </Badge>
           
           <h1 className="font-serif text-7xl md:text-9xl font-bold tracking-tight">
             HONIA <span className="text-primary">×</span> MS
           </h1>
-          
-          <div className="relative inline-block">
-            <div className="absolute inset-0 blur-3xl bg-primary opacity-20 animate-pulse" />
-            <p className="text-6xl md:text-8xl font-serif font-black text-primary relative">
-              $1,000,000
-            </p>
-          </div>
           
           <p className="text-xl md:text-2xl text-muted-foreground font-light tracking-wide">
             See how we work on real site
@@ -77,8 +70,8 @@ const Index = () => {
             
             <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500">
               <img 
-                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/abf9ed19-b616-4009-95f6-cf046d1c94f0.jpg"
-                alt="Webinar presentation"
+                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/1655624a-c183-47a1-b7d4-11dd2a9d09d5.jpg"
+                alt="Webinar dashboard"
                 className="w-full h-full object-cover"
               />
             </Card>
@@ -91,7 +84,7 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500 order-2 lg:order-1">
               <img 
-                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/b4282f79-7b81-4916-beec-8e501557055c.jpg"
+                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/84235bad-2d1b-456a-a097-ed72aa3cced8.jpg"
                 alt="Banking transactions"
                 className="w-full h-full object-cover"
               />
@@ -111,12 +104,6 @@ const Index = () => {
               <div className="space-y-6 text-lg text-muted-foreground">
                 <p className="leading-relaxed">
                   We have top-sales managers, that make best conversion to buying
-                </p>
-                <p className="text-4xl font-serif font-bold text-primary">
-                  $10,000+
-                </p>
-                <p className="leading-relaxed">
-                  Daily revenue from optimized sales funnel
                 </p>
               </div>
               
@@ -155,10 +142,10 @@ const Index = () => {
               
               <div className="space-y-6 text-lg text-muted-foreground">
                 <p className="leading-relaxed">
-                  We make your own platform, best performance at the lessons
+                  We make your own platform, the best performance at the lessons
                 </p>
                 <p className="leading-relaxed">
-                  People will want not just simple videos
+                  People won't want just simple videos
                 </p>
                 <p className="leading-relaxed text-white">
                   They will go through an interactive program with gifts, tasks and bonuses
@@ -183,7 +170,7 @@ const Index = () => {
             
             <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500">
               <img 
-                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/c6b56c78-af39-492d-afdd-485bdcfe8ed6.jpg"
+                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/36c00bf0-adf6-4c97-bc24-a6793ed95414.jpg"
                 alt="Learning platform"
                 className="w-full h-full object-cover"
               />
@@ -197,8 +184,8 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500 order-2 lg:order-1">
               <img 
-                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/80f0d58f-7914-4dac-8189-a513dcb25b3c.jpg"
-                alt="Live events"
+                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/4d827fb7-3785-402a-b78b-f7c49be6e66a.jpg"
+                alt="Premium community events"
                 className="w-full h-full object-cover"
               />
             </Card>
@@ -215,26 +202,26 @@ const Index = () => {
               </div>
               
               <div className="space-y-6 text-lg text-muted-foreground">
-                <p className="text-2xl font-serif font-bold text-white">
-                  Premium community of students. Live meetings
+                <p className="leading-relaxed">
+                  Premium student community. Live meetings
                 </p>
                 <p className="leading-relaxed">
-                  Full organization on us
+                  Full organisation on us
                 </p>
               </div>
               
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2 text-primary">
                   <Icon name="Users2" size={20} />
-                  <span>Exclusive community</span>
-                </div>
-                <div className="flex items-center gap-2 text-primary">
-                  <Icon name="Video" size={20} />
                   <span>Live events</span>
                 </div>
                 <div className="flex items-center gap-2 text-primary">
-                  <Icon name="Star" size={20} />
-                  <span>Premium experience</span>
+                  <Icon name="MapPin" size={20} />
+                  <span>Premium venues</span>
+                </div>
+                <div className="flex items-center gap-2 text-primary">
+                  <Icon name="Calendar" size={20} />
+                  <span>Full coordination</span>
                 </div>
               </div>
             </div>
@@ -243,48 +230,64 @@ const Index = () => {
       </section>
 
       <section className="py-32 px-4 relative">
-        <div className="max-w-4xl mx-auto text-center space-y-12 animate-fade-in">
-          <div className="space-y-6">
-            <h2 className="text-6xl font-serif font-bold">
-              On <span className="text-primary">Us</span>
-            </h2>
-            <p className="text-xl text-muted-foreground">
-              Full service management
-            </p>
+        <div className="max-w-7xl mx-auto text-center space-y-16">
+          <div>
+            <Badge className="bg-primary/20 text-primary border-primary/30 mb-6">OUR RESPONSIBILITY</Badge>
+            <h2 className="text-6xl font-serif font-bold mb-12">On Us</h2>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { icon: "Users", title: "Team", desc: "Expert professionals" },
-              { icon: "TrendingUp", title: "Sales", desc: "Conversion optimization" },
-              { icon: "Presentation", title: "Webinar", desc: "Full organization" },
-              { icon: "UsersRound", title: "Audience", desc: "Maximum reach" },
-            ].map((item, i) => (
-              <Card 
-                key={i} 
-                className="p-8 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all duration-300 hover:scale-105"
-              >
-                <div className="space-y-4">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto border border-primary/30">
-                    <Icon name={item.icon as any} className="text-primary" size={28} />
-                  </div>
-                  <h3 className="text-xl font-serif font-bold">{item.title}</h3>
-                  <p className="text-sm text-muted-foreground">{item.desc}</p>
-                </div>
-              </Card>
-            ))}
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Card className="p-8 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all duration-300">
+              <Icon name="Users" className="text-primary mx-auto mb-4" size={48} />
+              <h3 className="text-2xl font-serif font-bold mb-4">Team</h3>
+              <p className="text-muted-foreground">Expert professionals handling every detail</p>
+            </Card>
+            
+            <Card className="p-8 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all duration-300">
+              <Icon name="TrendingUp" className="text-primary mx-auto mb-4" size={48} />
+              <h3 className="text-2xl font-serif font-bold mb-4">Sales</h3>
+              <p className="text-muted-foreground">High-conversion sales strategies</p>
+            </Card>
+            
+            <Card className="p-8 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all duration-300">
+              <Icon name="Presentation" className="text-primary mx-auto mb-4" size={48} />
+              <h3 className="text-2xl font-serif font-bold mb-4">Webinar Organisation</h3>
+              <p className="text-muted-foreground">Complete event management from start to finish</p>
+            </Card>
+            
+            <Card className="p-8 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all duration-300">
+              <Icon name="Users2" className="text-primary mx-auto mb-4" size={48} />
+              <h3 className="text-2xl font-serif font-bold mb-4">Audience Collection</h3>
+              <p className="text-muted-foreground">Maximum attendance at sales events</p>
+            </Card>
+          </div>
+
+          <div className="pt-16">
+            <Card className="inline-block p-12 bg-gradient-to-br from-primary/20 to-primary/5 backdrop-blur-sm border-primary/30">
+              <p className="text-5xl font-serif font-bold text-primary mb-4">$10,000+</p>
+              <p className="text-xl text-muted-foreground">Revenue delivered</p>
+            </Card>
           </div>
         </div>
       </section>
 
+      <section className="py-32 px-4 relative bg-gradient-to-b from-transparent via-primary/5 to-transparent">
+        <div className="max-w-7xl mx-auto text-center space-y-16">
+          <div>
+            <Badge className="bg-primary/20 text-primary border-primary/30 mb-6">CASE STUDIES</Badge>
+            <h2 className="text-6xl font-serif font-bold">How We Implemented This For Others</h2>
+          </div>
+          
+          <p className="text-2xl text-muted-foreground max-w-3xl mx-auto">
+            Real results from real clients who trusted us with their million-dollar products
+          </p>
+        </div>
+      </section>
+
       <footer className="py-16 px-4 border-t border-primary/20">
-        <div className="max-w-7xl mx-auto text-center space-y-4">
-          <p className="text-4xl font-serif font-bold">
-            HONIA <span className="text-primary">×</span> MS
-          </p>
-          <p className="text-muted-foreground">
-            Premium Product Development
-          </p>
+        <div className="max-w-7xl mx-auto text-center">
+          <p className="text-primary font-serif text-3xl font-bold mb-4">HONIA × MS</p>
+          <p className="text-muted-foreground">Premium product development & sales infrastructure</p>
         </div>
       </footer>
     </div>
