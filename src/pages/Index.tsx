@@ -13,7 +13,7 @@ const Index = () => {
         <div className="text-center space-y-8 animate-fade-in relative z-10 max-w-5xl">
           <Badge variant="outline" className="border-primary text-primary text-sm px-4 py-2">PREMIUM PRODUCT</Badge>
           
-          <h1 className="font-serif text-7xl md:text-9xl font-bold tracking-tight">
+          <h1 className="font-serif text-7xl md:text-9xl font-bold tracking-tight animate-title-shimmer">
             HONIA <span className="text-primary">×</span> MS
           </h1>
           
