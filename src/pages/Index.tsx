@@ -68,12 +68,16 @@ const Index = () => {
               </div>
             </div>
             
-            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500">
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500 relative">
               <img 
                 src="https://cdn.poehali.dev/files/075dff16-0637-4802-8d2a-f7330606dc47.png"
                 alt="Webinar dashboard"
                 className="w-full h-full object-cover"
               />
+              <div className="absolute bottom-6 right-6 bg-primary px-6 py-3 rounded-full flex items-center gap-3 shadow-lg">
+                <span className="text-black font-bold text-lg tracking-wider">LIVE</span>
+                <div className="w-3 h-3 bg-red-600 rounded-full animate-pulse shadow-[0_0_10px_rgba(220,38,38,0.8)]"></div>
+              </div>
             </Card>
           </div>
         </div>
