@@ -39,7 +39,7 @@ const Index = () => {
                 </div>
                 <div>
                   <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 1</Badge>
-                  <h2 className="text-5xl font-serif font-bold">Webinar</h2>
+                  <h2 className="text-5xl font-serif font-bold animate-text-glow">Webinar</h2>
                 </div>
               </div>
               
@@ -97,7 +97,7 @@ const Index = () => {
                 </div>
                 <div>
                   <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 2</Badge>
-                  <h2 className="text-5xl font-serif font-bold">Team</h2>
+                  <h2 className="text-5xl font-serif font-bold animate-text-glow">Team</h2>
                 </div>
               </div>
               
@@ -136,7 +136,7 @@ const Index = () => {
                 </div>
                 <div>
                   <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 3</Badge>
-                  <h2 className="text-5xl font-serif font-bold">Product</h2>
+                  <h2 className="text-5xl font-serif font-bold animate-text-glow">Product</h2>
                 </div>
               </div>
               
@@ -197,7 +197,7 @@ const Index = () => {
                 </div>
                 <div>
                   <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 4</Badge>
-                  <h2 className="text-5xl font-serif font-bold">Community</h2>
+                  <h2 className="text-5xl font-serif font-bold animate-text-glow">Community</h2>
                 </div>
               </div>
               
@@ -233,7 +233,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto text-center space-y-16">
           <div>
             <Badge className="bg-primary/20 text-primary border-primary/30 mb-6">OUR RESPONSIBILITY</Badge>
-            <h2 className="text-6xl font-serif font-bold mb-12">On Us</h2>
+            <h2 className="text-6xl font-serif font-bold mb-12 animate-text-glow">On Us</h2>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -275,7 +275,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto text-center space-y-16">
           <div>
             <Badge className="bg-primary/20 text-primary border-primary/30 mb-6">CASE STUDIES</Badge>
-            <h2 className="text-6xl font-serif font-bold">How We Implemented This For Others</h2>
+            <h2 className="text-6xl font-serif font-bold animate-text-glow">How We Implemented This For Others</h2>
           </div>
           
           <p className="text-2xl text-muted-foreground max-w-3xl mx-auto">
