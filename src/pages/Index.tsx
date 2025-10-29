@@ -93,7 +93,7 @@ const Index = () => {
             <div className="space-y-8 animate-fade-in order-1 lg:order-2">
               <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30 animate-circle-glow">
-                  <span className="font-serif font-bold text-primary text-3xl animate-number-pop" style={{animationDelay: '0.2s'}}>2</span>
+                  <span className="font-serif text-primary animate-number-pop my-0 text-5xl font-normal" style={{animationDelay: '0.2s'}}>2</span>
                 </div>
                 <div>
                   <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 2</Badge>
@@ -132,7 +132,7 @@ const Index = () => {
             <div className="space-y-8 animate-fade-in">
               <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30 animate-circle-glow">
-                  <span className="font-serif font-bold text-primary text-3xl animate-number-pop" style={{animationDelay: '0.4s'}}>3</span>
+                  <span className="font-serif text-primary animate-number-pop my-0 text-5xl font-normal" style={{animationDelay: '0.4s'}}>3</span>
                 </div>
                 <div>
                   <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 3</Badge>
@@ -193,7 +193,7 @@ const Index = () => {
             <div className="space-y-8 animate-fade-in order-1 lg:order-2">
               <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30 animate-circle-glow">
-                  <span className="font-serif font-bold text-primary text-3xl animate-number-pop" style={{animationDelay: '0.6s'}}>4</span>
+                  <span className="font-serif text-primary animate-number-pop my-0 text-5xl font-normal" style={{animationDelay: '0.6s'}}>4</span>
                 </div>
                 <div>
                   <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 4</Badge>
