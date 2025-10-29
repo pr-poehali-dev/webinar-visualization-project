@@ -33,7 +33,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8 animate-fade-in">
-              <div className="flex items-center gap-4">
+              <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30 animate-circle-glow">
                   <span className="font-serif font-bold text-primary text-3xl animate-number-pop">1</span>
                 </div>
@@ -91,7 +91,7 @@ const Index = () => {
             </Card>
             
             <div className="space-y-8 animate-fade-in order-1 lg:order-2">
-              <div className="flex items-center gap-4">
+              <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30 animate-circle-glow">
                   <span className="font-serif font-bold text-primary text-3xl animate-number-pop" style={{animationDelay: '0.2s'}}>2</span>
                 </div>
@@ -130,7 +130,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8 animate-fade-in">
-              <div className="flex items-center gap-4">
+              <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30 animate-circle-glow">
                   <span className="font-serif font-bold text-primary text-3xl animate-number-pop" style={{animationDelay: '0.4s'}}>3</span>
                 </div>
@@ -191,7 +191,7 @@ const Index = () => {
             </Card>
             
             <div className="space-y-8 animate-fade-in order-1 lg:order-2">
-              <div className="flex items-center gap-4">
+              <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30 animate-circle-glow">
                   <span className="font-serif font-bold text-primary text-3xl animate-number-pop" style={{animationDelay: '0.6s'}}>4</span>
                 </div>
