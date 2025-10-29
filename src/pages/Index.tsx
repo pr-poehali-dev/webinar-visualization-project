@@ -315,10 +315,18 @@ const Index = () => {
               />
             </Card>
 
-            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 hover:scale-105 transition-transform duration-500 h-[400px] md:col-span-2 lg:col-span-1">
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 hover:scale-105 transition-transform duration-500 h-[400px]">
               <img 
                 src="https://cdn.poehali.dev/files/6ccefce2-ce21-4a61-869c-a2de004e3be2.jpg"
                 alt="Course platform dashboard"
+                className="w-full h-full object-contain"
+              />
+            </Card>
+
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 hover:scale-105 transition-transform duration-500 h-[400px]">
+              <img 
+                src="https://cdn.poehali.dev/files/db9b8c64-86f9-46fd-b240-ee9685b46b5b.jpg"
+                alt="Course module interface"
                 className="w-full h-full object-contain"
               />
             </Card>
