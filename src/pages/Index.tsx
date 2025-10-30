@@ -32,7 +32,7 @@ const Index = () => {
         <img 
           src="https://cdn.poehali.dev/files/9538c5cf-c27c-4f89-9e20-9d76b2a704b0.png"
           alt="Business woman"
-          className="absolute left-0 bottom-0 h-[80vh] w-auto object-contain z-10 animate-fade-in"
+          className="absolute -left-12 bottom-0 h-[80vh] w-auto object-contain z-10 animate-fade-in hidden lg:block"
         />
         
         {moneyElements.map((money) => (
