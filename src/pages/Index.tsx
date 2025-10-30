@@ -60,6 +60,7 @@ const Index = () => {
             <Icon name="ChevronDown" className="animate-bounce text-primary" size={40} />
           </div>
         </div>
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-black z-10" />
       </section>
 
       <section className="py-32 px-4 relative">
