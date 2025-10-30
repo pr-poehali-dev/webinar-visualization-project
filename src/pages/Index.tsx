@@ -35,8 +35,14 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 px-4 relative">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-32 px-4 relative overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-10"
+          style={{
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+          }}
+        />
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8 animate-fade-in">
               <div className="space-y-6">
@@ -132,8 +138,14 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 px-4 relative">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-32 px-4 relative overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-10"
+          style={{
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+          }}
+        />
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8 animate-fade-in">
               <div className="space-y-6">
@@ -185,8 +197,14 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 px-4 relative bg-gradient-to-b from-transparent via-primary/5 to-transparent">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-32 px-4 relative bg-gradient-to-b from-transparent via-primary/5 to-transparent overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-10"
+          style={{
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+          }}
+        />
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500 order-2 lg:order-1">
               <img 
@@ -235,8 +253,14 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 px-4 relative">
-        <div className="max-w-7xl mx-auto text-center space-y-16">
+      <section className="py-32 px-4 relative overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-10"
+          style={{
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+          }}
+        />
+        <div className="max-w-7xl mx-auto text-center space-y-16 relative z-10">
           <div>
             <Badge className="bg-primary/20 text-primary border-primary/30 mb-6">OUR RESPONSIBILITY</Badge>
             <h2 className="text-6xl font-serif font-bold mb-12 animate-text-glow">On Us</h2>
@@ -277,8 +301,14 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 px-4 relative bg-gradient-to-b from-transparent via-primary/5 to-transparent">
-        <div className="max-w-7xl mx-auto text-center space-y-16">
+      <section className="py-32 px-4 relative bg-gradient-to-b from-transparent via-primary/5 to-transparent overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-10"
+          style={{
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+          }}
+        />
+        <div className="max-w-7xl mx-auto text-center space-y-16 relative z-10">
           <div>
             <Badge className="bg-primary/20 text-primary border-primary/30 mb-6">CASE STUDIES</Badge>
             <h2 className="text-6xl font-serif font-bold animate-text-glow">How We Implemented This For Others</h2>
@@ -340,8 +370,14 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="py-16 px-4 border-t border-primary/20">
-        <div className="max-w-7xl mx-auto text-center">
+      <footer className="py-16 px-4 border-t border-primary/20 relative overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-10"
+          style={{
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+          }}
+        />
+        <div className="max-w-7xl mx-auto text-center relative z-10">
           <p className="text-primary font-serif text-3xl font-bold mb-4">HONIA × MS</p>
           <p className="text-muted-foreground">Premium product development & sales infrastructure</p>
         </div>
