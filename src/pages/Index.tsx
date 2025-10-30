@@ -29,6 +29,12 @@ const Index = () => {
           }}
         />
         
+        <img 
+          src="https://cdn.poehali.dev/files/9538c5cf-c27c-4f89-9e20-9d76b2a704b0.png"
+          alt="Business woman"
+          className="absolute left-0 bottom-0 h-[80vh] w-auto object-contain z-10 animate-fade-in"
+        />
+        
         {moneyElements.map((money) => (
           <span
             key={money.id}
@@ -55,11 +61,12 @@ const Index = () => {
           </p>
           
           <p className="text-4xl md:text-5xl font-serif font-bold text-primary animate-text-glow">$1.000.000 product</p>
-          
-          <div className="pt-12">
-            <Icon name="ChevronDown" className="animate-bounce text-primary" size={40} />
-          </div>
         </div>
+        
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20">
+          <Icon name="ChevronDown" className="animate-bounce text-primary" size={40} />
+        </div>
+        
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-black z-10" />
       </section>
 
