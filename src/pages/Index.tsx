@@ -7,7 +7,7 @@ const Index = () => {
   const [moneyElements, setMoneyElements] = useState<Array<{id: number, left: string, delay: string, duration: string}>>([]);
 
   useEffect(() => {
-    const elements = Array.from({ length: 15 }, (_, i) => ({
+    const elements = Array.from({ length: 25 }, (_, i) => ({
       id: i,
       left: `${Math.random() * 100}%`,
       delay: `${Math.random() * 5}s`,
@@ -32,7 +32,7 @@ const Index = () => {
         {moneyElements.map((money) => (
           <span
             key={money.id}
-            className="animate-money-fall text-4xl"
+            className="animate-money-fall text-6xl"
             style={{
               left: money.left,
               animationDelay: money.delay,
