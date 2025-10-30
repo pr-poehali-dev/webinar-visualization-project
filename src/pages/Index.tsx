@@ -30,17 +30,17 @@ const Index = () => {
         />
         
         {moneyElements.map((money) => (
-          <img
+          <span
             key={money.id}
-            src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/513e59e1-6c01-4ac5-9774-faf1f4b6554d.jpg"
-            alt=""
-            className="animate-money-fall w-24 h-12 object-contain"
+            className="animate-money-fall text-6xl"
             style={{
               left: money.left,
               animationDelay: money.delay,
               animationDuration: money.duration
             }}
-          />
+          >
+            💵
+          </span>
         ))}
         
         <div className="text-center space-y-8 animate-fade-in relative z-10 max-w-5xl">
