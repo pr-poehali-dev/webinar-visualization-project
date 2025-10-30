@@ -23,7 +23,7 @@ const Index = () => {
       <section className="min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(212,175,55,0.1),transparent_50%)]" />
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-20"
+          className="absolute inset-0 bg-cover bg-center opacity-10"
           style={{
             backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
           }}
@@ -46,10 +46,10 @@ const Index = () => {
         <img 
           src="https://cdn.poehali.dev/files/cdfce6ed-2041-41fa-9f8b-c36d91d8903f.png"
           alt="Business women"
-          className="absolute bottom-0 left-0 right-0 w-full h-auto max-h-[75vh] object-contain object-bottom z-10 animate-fade-in drop-shadow-[0_0_15px_rgba(212,175,55,0.3)]"
+          className="absolute bottom-0 left-0 right-0 w-full h-auto max-h-[70vh] object-contain object-bottom z-10 animate-fade-in"
         />
         
-        <div className="text-center space-y-8 animate-fade-in relative z-20 max-w-5xl -mt-32">
+        <div className="text-center space-y-8 animate-fade-in relative z-20 max-w-5xl">
           <Badge variant="outline" className="border-primary text-primary text-sm px-4 py-2">PREMIUM PRODUCT</Badge>
           
           <h1 className="font-serif text-7xl md:text-9xl font-bold tracking-tight animate-title-shimmer">
@@ -61,13 +61,12 @@ const Index = () => {
           </p>
           
           <p className="text-4xl md:text-5xl font-serif font-bold text-primary animate-text-glow">$1.000.000 product</p>
+          
+          <div className="pt-12">
+            <Icon name="ChevronDown" className="animate-bounce text-primary" size={40} />
+          </div>
         </div>
-        
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30">
-          <Icon name="ChevronDown" className="animate-bounce text-primary" size={40} />
-        </div>
-        
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-black z-30 pointer-events-none" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-black z-30" />
       </section>
 
       <section className="py-32 px-4 relative">
