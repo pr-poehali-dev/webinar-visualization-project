@@ -1,8 +1,21 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/ui/icon";
+import { useEffect, useState } from "react";
 
 const Index = () => {
+  const [moneyElements, setMoneyElements] = useState<Array<{id: number, left: string, delay: string, duration: string}>>([]);
+
+  useEffect(() => {
+    const elements = Array.from({ length: 15 }, (_, i) => ({
+      id: i,
+      left: `${Math.random() * 100}%`,
+      delay: `${Math.random() * 5}s`,
+      duration: `${8 + Math.random() * 4}s`
+    }));
+    setMoneyElements(elements);
+  }, []);
+
   return (
     <div className="min-h-screen bg-black text-white">
       <div className="fixed top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-50" />
@@ -15,6 +28,20 @@ const Index = () => {
             backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
           }}
         />
+        
+        {moneyElements.map((money) => (
+          <span
+            key={money.id}
+            className="animate-money-fall text-4xl"
+            style={{
+              left: money.left,
+              animationDelay: money.delay,
+              animationDuration: money.duration
+            }}
+          >
+            💵
+          </span>
+        ))}
         
         <div className="text-center space-y-8 animate-fade-in relative z-10 max-w-5xl">
           <Badge variant="outline" className="border-primary text-primary text-sm px-4 py-2">PREMIUM PRODUCT</Badge>

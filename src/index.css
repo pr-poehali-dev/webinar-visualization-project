@@ -188,3 +188,28 @@
 .animate-title-shimmer {
   animation: title-shimmer 3s ease-in-out infinite;
 }
+
+@keyframes money-fall {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.animate-money-fall {
+  animation: money-fall linear infinite;
+  position: absolute;
+  color: hsl(43, 74%, 66%);
+  opacity: 0.3;
+  pointer-events: none;
+}
