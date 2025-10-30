@@ -61,12 +61,13 @@ const Index = () => {
           </p>
           
           <p className="text-4xl md:text-5xl font-serif font-bold text-primary animate-text-glow">$1.000.000 product</p>
-          
-          <div className="pt-12">
-            <Icon name="ChevronDown" className="animate-bounce text-primary" size={40} />
-          </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-black z-30" />
+        
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30">
+          <Icon name="ChevronDown" className="animate-bounce text-primary" size={40} />
+        </div>
+        
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-black z-30 pointer-events-none" />
       </section>
 
       <section className="py-32 px-4 relative">
