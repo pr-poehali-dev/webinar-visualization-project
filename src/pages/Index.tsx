@@ -1,8 +1,20 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/ui/icon";
+import { useEffect, useState } from "react";
 
 const Index = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div className="min-h-screen bg-black text-white">
       <div className="fixed top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-50" />
@@ -10,9 +22,10 @@ const Index = () => {
       <section className="min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(212,175,55,0.1),transparent_50%)]" />
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-10"
+          className="absolute inset-0 bg-cover bg-center opacity-10 transition-transform duration-100"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)',
+            transform: `translateY(${scrollY * 0.5}px)`
           }}
         />
         
@@ -37,9 +50,10 @@ const Index = () => {
 
       <section className="py-32 px-4 relative overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-10"
+          className="absolute inset-0 bg-cover bg-center opacity-10 transition-transform duration-100"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)',
+            transform: `translateY(${(scrollY - 800) * 0.3}px)`
           }}
         />
         <div className="max-w-7xl mx-auto relative z-10">
@@ -91,8 +105,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 px-4 relative bg-gradient-to-b from-transparent via-primary/5 to-transparent">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-32 px-4 relative bg-gradient-to-b from-transparent via-primary/5 to-transparent overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-10 transition-transform duration-100"
+          style={{
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)',
+            transform: `translateY(${(scrollY - 1400) * 0.3}px)`
+          }}
+        />
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500 order-2 lg:order-1">
               <img 
@@ -140,9 +161,10 @@ const Index = () => {
 
       <section className="py-32 px-4 relative overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-10"
+          className="absolute inset-0 bg-cover bg-center opacity-10 transition-transform duration-100"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)',
+            transform: `translateY(${(scrollY - 2000) * 0.3}px)`
           }}
         />
         <div className="max-w-7xl mx-auto relative z-10">
@@ -199,9 +221,10 @@ const Index = () => {
 
       <section className="py-32 px-4 relative bg-gradient-to-b from-transparent via-primary/5 to-transparent overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-10"
+          className="absolute inset-0 bg-cover bg-center opacity-10 transition-transform duration-100"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)',
+            transform: `translateY(${(scrollY - 2600) * 0.3}px)`
           }}
         />
         <div className="max-w-7xl mx-auto relative z-10">
@@ -255,9 +278,10 @@ const Index = () => {
 
       <section className="py-32 px-4 relative overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-10"
+          className="absolute inset-0 bg-cover bg-center opacity-10 transition-transform duration-100"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)',
+            transform: `translateY(${(scrollY - 3200) * 0.3}px)`
           }}
         />
         <div className="max-w-7xl mx-auto text-center space-y-16 relative z-10">
@@ -274,14 +298,20 @@ const Index = () => {
             </Card>
             
             <Card className="p-8 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all duration-300">
-              <Icon name="TrendingUp" className="text-primary mx-auto mb-4" size={48} />
-              <h3 className="text-2xl font-serif font-bold mb-4">Sales</h3>
-              <p className="text-muted-foreground">High-conversion sales strategies</p>
+              <Icon name="Presentation" className="text-primary mx-auto mb-4" size={48} />
+              <h3 className="text-2xl font-serif font-bold mb-4">Webinar Tech</h3>
+              <p className="text-muted-foreground">Complete technical infrastructure</p>
             </Card>
             
             <Card className="p-8 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all duration-300">
-              <Icon name="Presentation" className="text-primary mx-auto mb-4" size={48} />
-              <h3 className="text-2xl font-serif font-bold mb-4">Webinar Organisation</h3>
+              <Icon name="Laptop" className="text-primary mx-auto mb-4" size={48} />
+              <h3 className="text-2xl font-serif font-bold mb-4">Platform</h3>
+              <p className="text-muted-foreground">Custom learning management system</p>
+            </Card>
+            
+            <Card className="p-8 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all duration-300">
+              <Icon name="Calendar" className="text-primary mx-auto mb-4" size={48} />
+              <h3 className="text-2xl font-serif font-bold mb-4">Events</h3>
               <p className="text-muted-foreground">Complete event management from start to finish</p>
             </Card>
             
@@ -303,9 +333,10 @@ const Index = () => {
 
       <section className="py-32 px-4 relative bg-gradient-to-b from-transparent via-primary/5 to-transparent overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-10"
+          className="absolute inset-0 bg-cover bg-center opacity-10 transition-transform duration-100"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)',
+            transform: `translateY(${(scrollY - 4000) * 0.3}px)`
           }}
         />
         <div className="max-w-7xl mx-auto text-center space-y-16 relative z-10">
@@ -372,9 +403,10 @@ const Index = () => {
 
       <footer className="py-16 px-4 border-t border-primary/20 relative overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-10"
+          className="absolute inset-0 bg-cover bg-center opacity-10 transition-transform duration-100"
           style={{
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)',
+            transform: `translateY(${(scrollY - 4800) * 0.3}px)`
           }}
         />
         <div className="max-w-7xl mx-auto text-center relative z-10">
