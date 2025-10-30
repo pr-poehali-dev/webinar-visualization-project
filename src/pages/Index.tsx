@@ -170,7 +170,7 @@ const Index = () => {
             
             <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500">
               <img 
-                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/36c00bf0-adf6-4c97-bc24-a6793ed95414.jpg"
+                src="https://cdn.poehali.dev/files/4e4db256-b24f-42ae-b634-d16e1ffc2591.jpg"
                 alt="Learning platform"
                 className="w-full h-full object-cover"
               />
