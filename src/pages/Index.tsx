@@ -46,7 +46,7 @@ const Index = () => {
         <img 
           src="https://cdn.poehali.dev/files/cdfce6ed-2041-41fa-9f8b-c36d91d8903f.png"
           alt="Business women"
-          className="absolute bottom-0 left-0 right-0 w-full h-auto max-h-[70vh] object-contain object-bottom z-10 animate-fade-in"
+          className="absolute bottom-0 left-0 right-0 w-full h-auto max-h-[70vh] object-contain object-bottom z-10 animate-fade-in drop-shadow-[0_0_30px_rgba(212,175,55,0.6)]"
         />
         
         <div className="text-center space-y-8 animate-fade-in relative z-20 max-w-5xl">
