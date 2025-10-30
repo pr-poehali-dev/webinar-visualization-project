@@ -22,6 +22,12 @@ const Index = () => {
       
       <section className="min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(212,175,55,0.1),transparent_50%)]" />
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-10"
+          style={{
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/ae281225-0910-4390-a46f-ed5db5773493.jpg)'
+          }}
+        />
         
         {moneyElements.map((money) => (
           <span
