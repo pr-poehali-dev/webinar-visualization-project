@@ -63,51 +63,52 @@ const Index = () => {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-black z-10" />
       </section>
 
-      <section className="pt-16 pb-32 px-4 relative">
-        <div className="max-w-6xl mx-auto space-y-12">
-          <div className="space-y-6 animate-fade-in max-w-2xl mx-auto text-center">
-            <div className="flex justify-center">
-              <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30 animate-circle-glow">
-                <span className="font-serif text-primary animate-number-pop text-4xl font-normal -mt-2">1</span>
+      <section className="py-32 px-4 relative">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="space-y-8 animate-fade-in">
+              <div className="space-y-6">
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center border border-primary/30 animate-circle-glow">
+                  <span className="font-serif text-primary animate-number-pop text-5xl font-normal -mt-3">1</span>
+                </div>
+                <div>
+                  <Badge className="bg-primary/20 text-primary border-primary/30 mb-2">STEP 1</Badge>
+                  <h2 className="text-5xl font-serif font-bold animate-text-glow">Webinar</h2>
+                </div>
+              </div>
+              
+              <div className="space-y-6 text-lg text-muted-foreground">
+                <p className="leading-relaxed">
+                  We creating your own selling web from scratch
+                </p>
+                <p className="leading-relaxed">
+                  All organisation, slides, technology of web on us
+                </p>
+              </div>
+              
+              <div className="flex flex-wrap gap-4">
+                <div className="flex items-center gap-2 text-primary">
+                  <Icon name="CheckCircle2" size={20} />
+                  <span>Professional slides</span>
+                </div>
+                <div className="flex items-center gap-2 text-primary">
+                  <Icon name="CheckCircle2" size={20} />
+                  <span>Lead generation</span>
+                </div>
+                <div className="flex items-center gap-2 text-primary">
+                  <Icon name="CheckCircle2" size={20} />
+                  <span>Full automation</span>
+                </div>
               </div>
             </div>
             
-            <div className="space-y-3">
-              <Badge className="bg-primary/20 text-primary border-primary/30">STEP 1</Badge>
-              <h2 className="text-6xl md:text-7xl font-serif font-bold animate-text-glow">Webinar</h2>
-            </div>
-            
-            <div className="space-y-4 text-lg text-muted-foreground max-w-xl mx-auto pt-4">
-              <p className="leading-relaxed">
-                We creating your own selling web from scratch
-              </p>
-              <p className="leading-relaxed">
-                All organisation, slides, technology of web on us
-              </p>
-            </div>
-            
-            <div className="flex flex-wrap gap-6 justify-center pt-4">
-              <div className="flex items-center gap-2 text-primary">
-                <Icon name="CheckCircle2" size={20} />
-                <span>Professional slides</span>
-              </div>
-              <div className="flex items-center gap-2 text-primary">
-                <Icon name="CheckCircle2" size={20} />
-                <span>Lead generation</span>
-              </div>
-              <div className="flex items-center gap-2 text-primary">
-                <Icon name="CheckCircle2" size={20} />
-                <span>Full automation</span>
-              </div>
-            </div>
-          </div>
-          
-          <div className="w-full rounded-2xl overflow-hidden border border-primary/20 animate-scale-in">
-            <img 
-              src="https://cdn.poehali.dev/files/4aedf4e8-6fd3-4d1b-85b1-4534a3ec6b09.png"
-              alt="Webinar live stream"
-              className="w-full h-auto object-contain"
-            />
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500">
+              <img 
+                src="https://cdn.poehali.dev/files/075dff16-0637-4802-8d2a-f7330606dc47.png"
+                alt="Webinar dashboard"
+                className="w-full h-full object-cover"
+              />
+            </Card>
           </div>
         </div>
       </section>
