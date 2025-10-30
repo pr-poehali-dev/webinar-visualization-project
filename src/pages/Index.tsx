@@ -44,7 +44,7 @@ const Index = () => {
         ))}
         
         <img 
-          src="https://cdn.poehali.dev/files/4f6a1685-0689-4585-b04b-f5f5e4a67887.png"
+          src="https://cdn.poehali.dev/files/e96f5adb-d980-4f3c-b1d0-ef9a78902c34.png"
           alt="Business women"
           className="absolute bottom-0 left-0 right-0 w-full h-auto max-h-[70vh] object-contain object-bottom z-10 animate-fade-in"
         />
