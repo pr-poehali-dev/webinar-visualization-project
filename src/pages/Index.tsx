@@ -35,6 +35,12 @@ const Index = () => {
           className="absolute -left-12 bottom-0 h-[80vh] w-auto object-contain z-10 animate-fade-in hidden lg:block"
         />
         
+        <img 
+          src="https://cdn.poehali.dev/files/eb419021-9202-48ea-9a2b-4aa1808081e3.png"
+          alt="Business woman 2"
+          className="absolute -right-12 bottom-0 h-[80vh] w-auto object-contain z-10 animate-fade-in hidden lg:block"
+        />
+        
         {moneyElements.map((money) => (
           <span
             key={money.id}
