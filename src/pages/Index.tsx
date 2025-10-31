@@ -124,7 +124,7 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 animate-scale-in hover:scale-105 transition-transform duration-500 order-2 lg:order-1">
               <img 
-                src="https://cdn.poehali.dev/projects/d205c5b6-fda0-4aff-af54-36f56fac4a86/files/84235bad-2d1b-456a-a097-ed72aa3cced8.jpg"
+                src="https://cdn.poehali.dev/files/d5dc2a36-9596-4a9c-85aa-1cad8a9bfc59.png"
                 alt="Banking transactions"
                 className="w-full h-full object-cover"
               />
