@@ -347,6 +347,17 @@ const Index = () => {
                 className="w-full object-contain"
               />
             </Card>
+
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 p-0">
+              <video 
+                controls
+                className="w-full"
+                poster="https://cdn.poehali.dev/files/d0934047-2535-4605-b4ae-5212b45d6d69.jpg"
+              >
+                <source src="" type="video/mp4" />
+                Ваш браузер не поддерживает видео.
+              </video>
+            </Card>
           </div>
         </div>
       </section>
