@@ -301,13 +301,6 @@ const Index = () => {
               <p className="text-muted-foreground">Maximum attendance at sales events</p>
             </Card>
           </div>
-
-          <div className="pt-16">
-            <Card className="inline-block p-12 bg-gradient-to-br from-primary/20 to-primary/5 backdrop-blur-sm border-primary/30">
-              <p className="text-5xl font-serif font-bold text-primary mb-4">$10,000+</p>
-              <p className="text-xl text-muted-foreground">Revenue delivered</p>
-            </Card>
-          </div>
         </div>
       </section>
 
