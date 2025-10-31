@@ -438,8 +438,7 @@ const Index = () => {
                 className="w-full"
                 poster="https://cdn.poehali.dev/files/d0934047-2535-4605-b4ae-5212b45d6d69.jpg"
               >
-                <source src="https://disk.yandex.ru/i/2EfzQ0GE9WmRyA" />
-                Ваш браузер не поддерживает видео.
+                <source src="https://disk.yandex.ru/i/S-VFFPajSwKXDg" />
               </video>
             </Card>
           </div>
