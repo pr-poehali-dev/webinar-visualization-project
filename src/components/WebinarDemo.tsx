@@ -90,6 +90,36 @@ const WebinarDemo = () => {
           </div>
         ))}
       </div>
+
+      <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="aspect-[9/16] rounded-lg overflow-hidden bg-black">
+          <iframe
+            src="https://www.youtube.com/embed/w2avlOMcM04"
+            title="YouTube video player 1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full"
+          />
+        </div>
+        <div className="aspect-[9/16] rounded-lg overflow-hidden bg-black">
+          <iframe
+            src="https://www.youtube.com/embed/7WSXqImbmF8"
+            title="YouTube video player 2"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full"
+          />
+        </div>
+        <div className="aspect-[9/16] rounded-lg overflow-hidden bg-black">
+          <iframe
+            src="https://www.youtube.com/embed/da5iuA3p4ug"
+            title="YouTube video player 3"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full"
+          />
+        </div>
+      </div>
     </div>
   );
 };
