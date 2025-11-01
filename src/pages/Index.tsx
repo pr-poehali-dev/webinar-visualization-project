@@ -433,13 +433,15 @@ const Index = () => {
             </Card>
 
             <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20 p-0">
-              <video
-                controls
-                className="w-full"
-                poster="https://cdn.poehali.dev/files/d0934047-2535-4605-b4ae-5212b45d6d69.jpg"
-              >
-                <source src="https://disk.yandex.ru/i/S-VFFPajSwKXDg" />
-              </video>
+              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/ZcAcT9rCHsA"
+                  title="HONIA × MS Wedding Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
             </Card>
           </div>
         </div>
