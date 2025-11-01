@@ -136,6 +136,42 @@ const Index = () => {
               />
             </Card>
           </div>
+
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20">
+              <div className="aspect-[9/16]">
+                <iframe
+                  src="https://www.youtube.com/embed/w2avlOMcM04"
+                  title="YouTube Shorts 1"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
+            </Card>
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20">
+              <div className="aspect-[9/16]">
+                <iframe
+                  src="https://www.youtube.com/embed/7WSXqImbmF8"
+                  title="YouTube Shorts 2"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
+            </Card>
+            <Card className="overflow-hidden bg-card/50 backdrop-blur-sm border-primary/20">
+              <div className="aspect-[9/16]">
+                <iframe
+                  src="https://www.youtube.com/embed/da5iuA3p4ug"
+                  title="YouTube Shorts 3"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
+            </Card>
+          </div>
         </div>
       </section>
 
