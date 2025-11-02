@@ -60,7 +60,7 @@ const Index = () => {
             PREMIUM PRODUCT
           </Badge>
 
-          <h1 className="font-serif text-7xl md:text-9xl font-bold tracking-tight animate-title-shimmer">
+          <h1 className="font-serif text-7xl md:text-9xl font-bold tracking-tight animate-title-shimmer whitespace-nowrap">
             HONIA <span className="text-primary">×</span> MS
           </h1>
 
